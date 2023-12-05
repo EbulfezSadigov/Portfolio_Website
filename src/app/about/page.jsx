@@ -3,7 +3,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import ProfilePic from "../../../public/port.png";
+import ProfilePic from "../../../public/1698878744649.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";

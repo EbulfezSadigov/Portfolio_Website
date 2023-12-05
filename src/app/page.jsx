@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import ProfileImage from "../../public/fff1.png";
+import ProfileImage from "../../public/web developer.png"
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { FaSquareArrowUpRight } from "react-icons/fa6";
@@ -19,18 +19,18 @@ const Home = () => {
       <main className="w-full min-h-screen dark:text-white">
         <div className="w-full h-full pt-0 p-32 lg:p-24 md:p-6">
           <div className="flex md:flex-col justify-between items-center w-full h-full pt-20 lg:pt-0">
-            <div className="w-1/2 h-full">
+            <div className="w-[40%] h-full">
               <Image
                 priority
                 alt="Profile"
                 src={ProfileImage}
-                className="w-full h-auto"
+                className="w-[1000px] h-auto"
               />
             </div>
-            <div className="w-1/2 lg:w-full flex flex-col self-center">
+            <div className="w-[60%] lg:w-full flex flex-col self-center">
               <AnimatedText
                 text="Turning vision Into Reality with Code and Design"
-                className="text-6xl md:text-5xl sm:text-3xl !text-left dark:text-white"
+                className="text-[64px] md:text-5xl sm:text-3xl !text-left dark:text-white"
               />
               <p className="my-4 text-base font-medium sm:text-[14px] text-justify">
                 Full-Stack developer with 1.5 years of hands-on experience
