@@ -18,8 +18,8 @@ const Home = () => {
       <TransitionEffect />
       <main className="w-full min-h-screen dark:text-white">
         <div className="w-full h-full pt-0 p-32 lg:p-24 md:p-6">
-          <div className="flex md:flex-col justify-between items-center w-full h-full pt-20 lg:pt-0">
-            <div className="w-[40%] h-full">
+          <div className="flex lg:flex-col justify-between items-center w-full h-full pt-20 lg:pt-0">
+            <div className="lg:w-full w-[40%] h-full">
               <Image
                 priority
                 alt="Profile"
@@ -33,7 +33,7 @@ const Home = () => {
                 className="text-[64px] md:text-5xl sm:text-3xl !text-left dark:text-white"
               />
               <p className="my-4 text-base font-medium sm:text-[14px] text-justify">
-                Full-Stack developer with 1.5 years of hands-on experience
+                Full-Stack developer with 2+ years of hands-on experience
                 designing, developing and implementing applications and
                 solutions using a range of technologies and programming
                 lanugages. Seeking to leverage broad development experience and
@@ -44,7 +44,7 @@ const Home = () => {
                 <Link
                   download={true}
                   className="flex sm:w-full text-center sm:justify-center items-center border border-solid dark:bg-white dark:text-black border-transparent transition duration-300 hover:border-black bg-black text-white p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-white hover:text-black"
-                  href="./Cv_Ebulfez_Sadigov (2).pdf"
+                  href="https://drive.google.com/file/d/1KxGxa1Ei1JQDD2ZgUh8FCHuKhUU9xbos/view?usp=sharing"
                 >
                   Resume
                   <FaSquareArrowUpRight className="ml-1" />

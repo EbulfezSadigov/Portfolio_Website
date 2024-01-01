@@ -220,18 +220,6 @@ local currency."
                 // production={true}
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Letsi app"
-                summary="A feature-rich Letsi app using Nuxt3, Tailwind CSS, Firebase, Vuex. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link="https://karvanl.az/"
-                github="/"
-                img="/letsi.png"
-                // development={true}
-              />
-            </div>
           </div>
         </div>
       </main>
