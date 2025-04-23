@@ -51,17 +51,41 @@ const Experience = () => {
         ></motion.div>
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Middle Front-end Developer"
+            company="FromFolio Co."
+            companyLink="https://fromfolio.com"
+            time="2024 December-Present"
+            work="Working alongside a talented team, I ensure the platform offers seamless navigation,
+innovative features, and exceptional performance. By leveraging modern front-end
+technologies and best practices, I help shape the future of digital collaboration in
+automotive design."
+          />
+          <Details
             position="Software Programming Instructor"
             company="Code Academy"
-            companyLink="code.edu.az"
+            companyLink="https://code.edu.az"
             time="2023 Februrary-Present"
             work="Teaching programming in one of the largest secondary education centers of country. Education syllabus of the course contains React,NextJs, HTML/CSS/JS, MongoDB etc. Have collabrated with Baku State University and Azerbaijan Technical University practicing CS 101+ to senior year computer science students."
           />
           <Details
-            position="Full-Stack Developer"
+            position="Middle Front-end Developer"
             company="Maestro Studio"
-            companyLink="maestro.st"
-            time="2023 January-Present"
+            companyLink="https://maestro.st"
+            time="2024 June-Present"
+            work="Developed and maintained robust, scalable code for various high-traffic web
+applications, leading to a 40% increase in site performance and user satisfaction
+Implemented a responsive design strategy that improved website accessibility on mobile
+devices by 80%, resulting in a significant increase in mobile user engagement.
+Provided technical support to customers by troubleshooting and resolving software
+issues.
+Front-end of My Brands and Bantik Websites - E-commerce websites.
+Management and Front end of Mirror - Outdoor Advertising website."
+          />
+          <Details
+            position="Junior Front-end Developer"
+            company="Maestro Studio"
+            companyLink="https://maestro.st"
+            time="2023 January-2024 June4"
             work="Designed and developed efficient and maintainable
                         software according to business objectives and needs of
                         various clients.Maintained complex technology infrastructure and

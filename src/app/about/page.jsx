@@ -53,7 +53,7 @@ const About = () => {
               <p className="font-medium">
                 Hi, I'm Sadigov Ebulfez, a web developer with a passion for
                 creating beautiful, functional, and user-centered digital
-                experiences. With 2+ years of experience in the field. I am
+                experiences. With 3+ years of experience in the field. I am
                 always looking for new and innovative ways to bring my clients'
                 visions to life.
               </p>
@@ -82,7 +82,7 @@ const About = () => {
             <div className="col-span-2 md:order-3 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={50} />+
+                  <AnimatedNumbers value={500} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-black/75 dark:text-white xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Satisfied clients
@@ -98,7 +98,7 @@ const About = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={2} />+
+                  <AnimatedNumbers value={3} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-black/75 dark:text-white xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Years experienced

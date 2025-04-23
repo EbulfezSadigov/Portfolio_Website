@@ -48,14 +48,20 @@ const Experience = () => {
         ></motion.div>
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Bachelor of science in Computer Science"
-            time="2018 - 2022"
-            work="Learning fundamentals of Computer science"
+            position="Doctor Of Philosophy, Computer Science
+in Ecology field"
+            time="2024 - Present"
+            work=""
           />
           <Details
             position="Master of science in Cyber security"
             time="2022 - 2024"
             work="Learning fundamentals of Cyber security"
+          />
+          <Details
+            position="Bachelor of science in Computer Science"
+            time="2018 - 2022"
+            work="Learning fundamentals of Computer science"
           />
         </ul>
       </div>

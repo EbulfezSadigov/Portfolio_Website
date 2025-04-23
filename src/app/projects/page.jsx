@@ -89,7 +89,6 @@ const Project = ({
   return (
     <article className="w-full h-[500px] flex flex-col items-center justify-center rounded-2xl border border-solid border-black dark:border-white bg-white dark:bg-black p-6 relative xs:p-4">
       <div className="absolute md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem] top-0 -right-3 rounded-br-3xl dark:bg-white -z-10 w-[101%] h-[103%] rounded-[2rem] bg-black" />
-
       <Link
         className="w-full cursor-pointer overflow-hidden rounded-lg"
         href={link}
@@ -162,14 +161,14 @@ const Projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Aral Group"
-                summary="A feature-rich Aral Group website using VueJS, Tailwind CSS, Firebase, Vuex. 
+                title="Fromfolio"
+                summary="A feature-rich Fromfolio website using NextJS, Tailwind CSS, Firebase, React Query. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link="https://aralgroupbaku.com/az"
+                link="https://fromfolio.com"
                 github="https://gitlab.com/users/abulfazs/contributed"
-                img="/aral-group.png"
-                // production={true}
+                img="/fromfolio.png"
+              // production={true}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -181,7 +180,7 @@ local currency."
                 link="https://mnvagro.az/"
                 github="https://gitlab.com/users/abulfazs/contributed"
                 img="/mnv.png"
-                // production={true}
+              // production={true}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -193,7 +192,7 @@ local currency."
                 link="https://karvanl.az/"
                 github="https://gitlab.com/users/abulfazs/contributed"
                 img="/karvan.png"
-                // production={true}
+              // production={true}
               />
             </div>
             <div className="col-span-12">
@@ -205,7 +204,7 @@ local currency."
                 link="https://bendis-ui-j86z.vercel.app/en"
                 github="https://github.com/EbulfezSadigov"
                 img="/bendis.png"
-                // development={true}
+              // development={true}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -217,7 +216,31 @@ local currency."
                 link="https://www.maestroschool.az/"
                 github="https://gitlab.com/users/abulfazs/contributed"
                 img="/maestro.png"
-                // production={true}
+              // production={true}
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Mirror Advertising"
+                summary="A feature-rich Mirror Advertising using React JS, Tailwind CSS, Python,Rtk Query. 
+It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+local currency."
+                link="https://mirror.az/"
+                github="https://gitlab.com/users/abulfazs/contributed"
+                img="/mirror.png"
+              // production={true}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Aral Group"
+                summary="A feature-rich Aral Group website using VueJS, Tailwind CSS, Firebase, Vuex. 
+It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+local currency."
+                link="https://aralgroupbaku.com/az"
+                github="https://gitlab.com/users/abulfazs/contributed"
+                img="/aral-group.png"
+              // production={true}
               />
             </div>
           </div>
