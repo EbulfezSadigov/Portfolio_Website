@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
-import { AiFillGitlab } from "react-icons/ai";
 import { usePathname, useRouter } from "next/navigation";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 import SunIcon from "./SunIcon";
@@ -28,6 +27,7 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const CustomMobileLink = ({ href, title, className = "", toggle }) => {
   const router = useRouter();
+  const pathname = usePathname();
 
   const handleClick = () => {
     toggle();
@@ -36,13 +36,13 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
   return (
     <button
       onClick={handleClick}
-      href={href}
+      type="button"
       className={`${className} relative group text-white dark:text-black`}
     >
       {title}
       <span
         className={`h-[1px] flex bg-black text-white dark:bg-white absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${
-          router === href ? "w-full" : "w-0"
+          pathname === href ? "w-full" : "w-0"
         }`}
       >
         &nbsp;
@@ -102,10 +102,6 @@ const Navbar = () => {
             <AiFillGithub className="inline mb-1 mr-1" />
             Github
           </Link>
-          <Link href="https://gitlab.com/abulfazs" target="_blank">
-            <AiFillGitlab className="inline mb-1 mr-1" />
-            Gitlab
-          </Link>
 
           <button
             className="ml-3 flex items-center justify-center rounded-full"
@@ -149,10 +145,6 @@ const Navbar = () => {
               <Link href="https://github.com/EbulfezSadigov" target="_blank">
                 <AiFillGithub className="inline mb-1 mr-1" />
                 <span className="xs:hidden">Github</span>
-              </Link>
-              <Link href="https://gitlab.com/abulfazs" target="_blank">
-                <AiFillGitlab className="inline mb-1 mr-1" />
-                <span className="xs:hidden">Gitlab</span>
               </Link>
             </div>
 
